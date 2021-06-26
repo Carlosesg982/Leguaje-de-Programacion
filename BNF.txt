@@ -1,0 +1,76 @@
+BNF
+=========================
+<programa>::=<bloque_de_instruccion>
+ 
+<bloque_de_instruccion>::=<instruccion>|<bloque_de_instruccion>
+ 
+<instruccion>::=<operacion>|<secuencia>|<declarar_variable>|<asignar>|<condicional>|<iterable>|<leer>|<imprimir>|<operacion>|<comentario>|<bloque_de_instruccion>
+ 
+<secuencia>::=<bloque_de_instruccion>
+ 
+<declarar_variable>::=<nombre_variable>´ as ´<tipo_dato>´ = ´<valor>|<nombre_variable>´ as ´<tipo_dato>
+ 
+<nombre_variable>::=<cadena>
+ 
+<cadena>::=<letra>|<letra><entero>
+ 
+<letra>::=<mayuscula>|<minuscula>
+ 
+<mayuscula>::=´A´|´B´|´C´|´D´|´E´|´F´|´G´|´H´|´I´|´J´|´K´|´L´|´M´|´N´|´O´|´P´|´Q´|´R´|´S´|´T´|´U´|´V´|´W´|´X´|´Y´|´Z´
+ 
+<minuscula>::=´a´|´b´|´c´|´d´|´e´|´f´|´g´|´h´|´i´|´j´|´k´|´l´|´m´|´n´|´o´|´p´|´q´|´e´|´s´|´t´|´u´|´v´|´w´|´x´|´y´|´z´
+ 
+<digito>::= <entero>|<digito><entero>
+ 
+<entero>::= ´0´|´1´|´2´|´3´|´4´|´5´|´6´|´7´|´8´|´9´
+ 
+<tipo_dato>::= <caracter>|<cadena>|<entero>|<decimal>|<booleano>
+ 
+<booleano>::=<true>|<false>
+ 
+<decimal>::=<digito>´.´<digito>
+ 
+<caracter>::= ´!´|´¡´|´?´|´¿´|´%´|´*´|´/´|´+´|´-´|´{´|´}´|´[´|´]´|´(´|´)´|´&´|´;´|´:´|´_´|´<´|´>´|<mayuscula>|<minuscula>
+  
+<valor>::=<nombre_de_variable>´=´<valor>
+  
+<condicional>::=<si>|<si_sino>
+  
+<si>::=´si(´<condicion>´){´<bloque_de_instrucion>´}´
+  
+<condicion>::=<nombre_de_variable><operador_relacional><valor>
+ 
+<operador_relacional>::=´==´|´<´|´>´|´=<´|´=>´|´!=´
+ 
+<si_sino>::=´si(´<condicion>´){´<bloque_de_instruccion>´}sino{´< bloque_de_instruccion >´}´
+ 
+<iteracion>::=<mientras>|<para>
+ 
+<mientras>::=´mientras(´<condicion>´){´< bloque_de_instruccion >´}´
+ 
+<para>::=´para(´<variable_entera>´;´<condicion_numeral>´;´<contador>´){´< bloque_de_instruccion >´}´
+ 
+<variable_entera>::=´entero´<nombre_variable>´=´<numero>
+ 
+<condicion_numeral>::=<variable_entera><operador_relacional><numero>
+ 
+<contador>::=<variable_entera>´+´<digito>
+ 
+<operacion>::= <luz_ apagada>|<luz_encendida>|<fuente_apagada>|<fuente_ encendida>|<operacion>
+ 
+<luz_apagada>::=<apagado>< intensidad>|<apagado><temporizador>
+ 
+<apagado>::=´false´|´0´
+ 
+<intensidad>::=<digito>
+ 
+<fuente_apagada>::=<apagado><intensidad>|<apagado><temporizador>
+ 
+<luz_encendida>::=<encendido>
+ 
+<fuente_encedida>::=<encendido>
+ 
+<encendido>::=´true´|´1´
+ 
+<temporizador>::=<digito>|<temporizador>
+ 
