@@ -5,7 +5,7 @@ proyecto de la clase
 
 * Carlos Eduardo Sosa Gonzalez 20171032445
 
-* Fernando Luis Murillo Chacon 20141001980
+* Fernando Luis Murillo Chacon 20141001980(Fennado0Murillo)
 
 * Kenia Paola Romero Nuñez 20171003359
 
