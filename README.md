@@ -3,9 +3,9 @@ proyecto de la clase
 
 ## Integrantes
 
-* Carlos Eduardo Sosa Gonzalez 20171032445
+* Carlos Eduardo Sosa Gonzalez 20171032445(Carlosesg982)
 
-* Fernando Luis Murillo Chacon 20141001980(Fennado0Murillo)
+* Fernando Luis Murillo Chacon 20141001980(Fernado0Murillo)
 
 * Kenia Paola Romero Nuñez 20171003359
 
