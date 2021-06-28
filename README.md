@@ -9,6 +9,6 @@ proyecto de la clase
 
 * Kenia Paola Romero Nuñez 20171003359
 
-* Gabriel Abilio Rodriguez Orellana 20081011029
+* Gabriel Abilio Rodriguez Orellana 20081011029 (meca110)
 
 * Walter Alexander Escamia López 20111004567
