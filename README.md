@@ -1,4 +1,4 @@
-# Leguaje-de-Programacion
+﻿# Leguaje-de-Programacion
 proyecto de la clase
 
 ## Integrantes
@@ -7,7 +7,7 @@ proyecto de la clase
 
 * Fernando Luis Murillo Chacon 20141001980(Fernando0Murillo)
 
-* Kenia Paola Romero Nuñez 20171003359
+* Kenia Paola Romero Nuñez 20171003359(keniarn)
 
 * Gabriel Abilio Rodriguez Orellana 20081011029 (meca110)
 
