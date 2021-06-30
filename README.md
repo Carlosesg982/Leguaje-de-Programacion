@@ -11,4 +11,4 @@ proyecto de la clase
 
 * Gabriel Abilio Rodriguez Orellana 20081011029 (meca110)
 
-* Walter Alexander Escamia López 20111004567
+* Walter Alexander Escamia López 20111004567(WalterEscamia2018)
